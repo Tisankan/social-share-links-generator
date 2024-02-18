@@ -1,4 +1,3 @@
-// index.js
 const SocialShare = require('./social-share');
 
 const socialShare = new SocialShare();
