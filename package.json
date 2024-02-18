@@ -1,0 +1,15 @@
+{
+  "name": "social-share-links-generator",
+  "version": "1.0.1",
+  "description": "Node.js package for generating social media share links for popular platforms.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["social", "share", "links", "generator", "twitter", "facebook", "linkedin"],
+  "author": "Tisankan",
+  "license": "ISC",
+  "dependencies": {
+    "querystring": "^0.2.1"
+  }
+}
