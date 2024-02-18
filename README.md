@@ -23,35 +23,7 @@ console.log('Twitter Share Link:', twitterLink);
 console.log('Facebook Share Link:', facebookLink);
 console.log('LinkedIn Share Link:', linkedinLink);
 ```
-## API
-Certainly! Below is a basic example of a README.md file for your Social Media Share Links Generator package. Feel free to customize it based on your specific features and usage instructions.
 
-markdown
-
-# Social Media Share Links Generator
-
-A simple Node.js package for generating social media share links for popular platforms.
-
-## Installation
-
-```bash
-npm install social-share-links-generator
-```
-## Usage
-
-```javascript
-const SocialShare = require('social-share-links-generator');
-
-const socialShare = new SocialShare();
-
-const twitterLink = socialShare.generateTwitterLink('Check out this awesome package!', 'https://example.com');
-const facebookLink = socialShare.generateFacebookLink('https://example.com');
-const linkedinLink = socialShare.generateLinkedInLink('Awesome Package', 'Generate social share links easily!', 'https://example.com');
-
-console.log('Twitter Share Link:', twitterLink);
-console.log('Facebook Share Link:', facebookLink);
-console.log('LinkedIn Share Link:', linkedinLink);
-```
 ## API
 `generateTwitterLink(text, url)`
 
